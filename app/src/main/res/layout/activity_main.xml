@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etWeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="网址"
+            android:focusable="false"
+            android:text="http://www.baidu.com"
+            android:paddingBottom="20dp"
+            android:paddingLeft="12dp"
+            android:paddingTop="20dp"/>
+        <Button
+            android:id="@+id/toWeb"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="调用"/>
+        <Button
+            android:id="@+id/scan"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="扫一扫"/>
+
+        <Button
+            android:id="@+id/tvMakeH5File"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="生成Json文件"/>
+
+        <Button
+            android:id="@+id/btnReplaceStr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="替换字符串"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="获取外网Ip"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn2Web"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="调用webView"/>
+
+            <Button
+                android:id="@+id/testNull"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="测试RemoveNull"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/testContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试通讯录"/>
+
+        <TextView
+            android:id="@+id/contactInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/testPic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试图片压缩"/>
+
+        <ImageView
+            android:id="@+id/ivPic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/testFxjc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发现精彩"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="214dp"
+            android:scrollbars="none">
+
+            <RelativeLayout
+                android:id="@+id/scrollViewRl"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </HorizontalScrollView>
+
+
+    </LinearLayout>
+</ScrollView>
+
